@@ -1,4 +1,3 @@
-
 ;==========================================
 ; Title: Insert trajectory predictions into a MySQL table
 ; Author: 
