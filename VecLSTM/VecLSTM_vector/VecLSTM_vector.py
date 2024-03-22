@@ -1,6 +1,6 @@
 ;==========================================
 ; Title: vectorization
-; Author: 
+; Author: anonymous - ECML PKDD 2024 - conference
 ; Date:   21 March 2024
 ;==========================================
 
