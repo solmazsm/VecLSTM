@@ -1,6 +1,6 @@
 ;==========================================
 ; Title: Create a table to store VecLSTM_trajectory_prediction
-; Author: 
+; Author: anonymous - ECML PKDD 2024 - conference
 ; Date:   21 March 2024
 ;==========================================
 
