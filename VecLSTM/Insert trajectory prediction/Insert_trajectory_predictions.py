@@ -1,6 +1,6 @@
 ;==========================================
 ; Title: Insert trajectory predictions into a MySQL table
-; Author: 
+; Author: anonymous - ECML PKDD 2024 - conference
 ; Date:  21 March 2024
 ;==========================================
 for index, row in df_predictions.iterrows():
