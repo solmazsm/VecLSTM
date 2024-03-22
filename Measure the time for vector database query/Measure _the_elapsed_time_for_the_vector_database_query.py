@@ -1,6 +1,6 @@
 ;==========================================
 ; Title: Measure the elapsed time for the vector database query
-; Author: 
+; Author: anonymous - ECML PKDD 2024 - conference
 ; Date:   21 March 2024
 ;==========================================
 
