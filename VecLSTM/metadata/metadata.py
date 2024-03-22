@@ -1,6 +1,6 @@
 ;==========================================
 ; Title: Create metadata
-; Author: 
+; Author: anonymous - ECML PKDD 2024 - conference
 ; Date:   21 March 2024
 ;==========================================
 
