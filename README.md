@@ -7,6 +7,6 @@ The GeoLife dataset, encompassing GPS trajectories from 182 users over three yea
 Instructions on how to download the dataset can be found <a href="https://www.microsoft.com/en-us/download/details.aspx?id=52367">here</a>.
 
 # Evaluation Implementation
-The implementation and instructions to run evaluationcan be found <a href="https://github.com/solmazsm/VecLSTM/tree/master">here</a>.  
+The implementation and instructions to run evaluationcan be found <a href="https://anonymous.4open.science/r/VecLSTM-C91B">here</a>.  
 
 For any questions, concerns, or comments for improvements, etc, please create an issue on the issues page for this project, or email the authors directly.
