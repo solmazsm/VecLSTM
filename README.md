@@ -6,6 +6,26 @@ The GeoLife dataset, encompassing GPS trajectories from 182 users over three yea
 # Download Dataset
 Instructions on how to download the dataset can be found <a href="https://www.microsoft.com/en-us/download/details.aspx?id=52367">here</a>.
 
+# Vectorization
+Defined a vectorization_function_VecLSTM to normalize and vectorize the latitude, longitude, and altitude data into a 10x10 grid.
+
+# Database Connection
+Established a connection to a MySQL database to store and retrieve vectorized data.
+
+# Metadata Creation
+Created a metadata column in the DataFrame by combining existing columns (time, latitude, longitude, altitude, label, and user).
+
+# Training LSTM Model without Vectorization:
+
+Built and compiled an LSTM model with two LSTM layers and a Dense layer for classification.
+Measured and recorded the training time without vectorization.
+Trained the model on the resampled training data.
+Evaluated the model's performance on the test set using confusion matrix, classification report, and weighted F1-score.
+
+# Vectorization Process
+Measured the time taken for vectorization.
+Vectorized each trajectory and stored the vectorized data into the MySQL database.
+
 # Evaluation Implementation
 The implementation and instructions to run evaluationcan be found <a href="https://anonymous.4open.science/r/VecLSTM-C91B">here</a>.
 
