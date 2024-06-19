@@ -8,7 +8,8 @@ Instructions on how to download the dataset can be found <a href="https://www.mi
 
 # Evaluation Implementation
 The implementation and instructions to run evaluationcan be found <a href="https://anonymous.4open.science/r/VecLSTM-C91B">here</a>.
-Performed several steps to preprocess trajectory data, train an LSTM model, and compare the performance with and without vectorization.
-Performed several steps to preprocess trajectory data, train an Hybrid model, and compare the performance with and without vectorization.
+
+## Performed several steps to preprocess trajectory data, train an LSTM model, and compare the performance with and without vectorization.
+## Performed several steps to preprocess trajectory data, train an Hybrid model, and compare the performance with and without vectorization.
 
 For any questions, concerns, or comments for improvements, etc, please create an issue on the issues page for this project, or email the authors directly.
