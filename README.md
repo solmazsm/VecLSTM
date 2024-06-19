@@ -26,6 +26,15 @@ Evaluated the model's performance on the test set using confusion matrix, classi
 Measured the time taken for vectorization.
 Vectorized each trajectory and stored the vectorized data into the MySQL database.
 
+# CNN Model Integration
+CNN Model: Convolutional Neural Network (CNN) model (cnn_model) for extracting spatial features from trajectory data.
+Integration: Combined the outputs of both LSTM and CNN models using the concatenate layer.
+Training: Trained the combined model (model) on the integrated data from both LSTM and CNN.
+
+# Evaluation and Comparison
+Performance Evaluation: Evaluated the hybrid model on the test set, calculated RMSE, MAE, and MSE.
+compare training times between LSTM-only and combined LSTM + CNN models.
+
 # Evaluation Implementation
 The implementation and instructions to run evaluationcan be found <a href="https://anonymous.4open.science/r/VecLSTM-C91B">here</a>.
 
