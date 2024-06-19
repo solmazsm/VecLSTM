@@ -2,7 +2,8 @@
 ; Title: vectorization process
 ; Author: anonymous - ICDM 2024 - conference
 ; Date:   ICDM 2024
-;======
+;========================================== 
+
 def VecLSTM_vectorization(lat_lon_alt):
    
     if np.any(np.isnan(lat_lon_alt)) or np.any(np.isinf(lat_lon_alt)):
