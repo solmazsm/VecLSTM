@@ -1,0 +1,2 @@
+comparison_data = {'Without Vectorization': time_without_vectorization, 'Vectorization Time': vectorization_time}
+df_comparison = pd.DataFrame(list(comparison_data.items()), columns=['Operation', 'Time (seconds)'])
