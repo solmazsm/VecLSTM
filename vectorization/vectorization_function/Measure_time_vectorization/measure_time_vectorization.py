@@ -11,7 +11,7 @@
     vectorized_data_array = np.zeros((len(trajectories), 10, 10, len(trajectories[0][0])))
 
     for i, trajectory in enumerate(trajectories):
-        vectorized_data_array[i] = vectorization_function(trajectory)
+        vectorized_data_array[i] = vectorization_function_VecLSTM(trajectory)
 
    
     end_time_vectorization = time.time()
