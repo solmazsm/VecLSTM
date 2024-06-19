@@ -4,7 +4,7 @@
 ; Date:   ICDM 2024
 ;========================================== 
 
-def VecLSTM_vectorization(lat_lon_alt):
+def vectorization_function_VecLSTM(lat_lon_alt):
    
     if np.any(np.isnan(lat_lon_alt)) or np.any(np.isinf(lat_lon_alt)):
         raise ValueError("Input data contains NaN or infinite values.")
