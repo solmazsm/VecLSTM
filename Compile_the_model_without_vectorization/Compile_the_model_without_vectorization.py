@@ -1,7 +1,7 @@
 ;==========================================
 ; Title: Compile_the_model_without_vectorization
-; Author: anonymous - ECML PKDD 2024 - conference
-; Date:   21 March 2024
+; Author: anonymous - ICDM 2024 - conference
+; Date:   ICDM 2024
 ;==========================================
 
     model_without_vectorization = Sequential()
