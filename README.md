@@ -11,5 +11,9 @@ The implementation and instructions to run evaluationcan be found <a href="https
 
  Performed several steps to preprocess trajectory data, train an LSTM model, and compare the performance with and without vectorization.
  Performed several steps to preprocess trajectory data, train an Hybrid model, and compare the performance with and without vectorization.
+ Compared the training times with and without vectorization.
+ Retrieved and displayed the vectorized data from the database.
+
+ This entire process demonstrates the steps taken to preprocess data, apply machine learning models, handle data storage and retrieval in a database, and compare the efficiency of different approaches.
 
 For any questions, concerns, or comments for improvements, etc, please create an issue on the issues page for this project, or email the authors directly.
