@@ -1,7 +1,6 @@
 ;==========================================
 ; Title: Train_the_model_without_vectorization
-; Author: anonymous - ICDM 2024 - conference
-; Date:   ICDM 2024
+; Author: anonymous 
 ;==========================================
 
 model_without_vectorization.fit(
