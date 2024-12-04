@@ -1,7 +1,7 @@
 ;==========================================
 ; Title: Train the model with class weights
-; Author: anonymous - ICDM 2024 - conference
-; Date:   ICDM 2024
+; Author: anonymous 
+; Date:    The Web Conference 2025
 ;==========================================
 
 history = model.fit(
