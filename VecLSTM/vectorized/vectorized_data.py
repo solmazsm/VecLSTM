@@ -1,7 +1,6 @@
 ;==========================================
 ; Title: Create a vector representation
-; Author: anonymous - ICDM 2024 - conference
-; Date:   ICDM 2024
+; Author: anonymous 
 ;========================================== 
 
 # This function takes the latitude (lat), longitude (lon), and time (time) columns 
