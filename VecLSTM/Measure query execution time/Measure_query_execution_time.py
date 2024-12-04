@@ -1,7 +1,7 @@
 ;==========================================
 ; Title: Measure query execution time
-; Author: anonymous - ICDM 2024 - conference
-; Date:   ICDM 2024
+; Author: anonymous 
+; Date:    The Web Conference 2025
 ;==========================================
 
 query_execution_time = end_time - start_time
