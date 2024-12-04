@@ -1,7 +1,7 @@
 ;==========================================
 ; Title: Train the model without vectorization
 ; Author: 
-; Date:   ICDM 2024
+; Date:    The Web Conference 2025
 ;========================================== 
 model_without_vectorization.fit(
 
