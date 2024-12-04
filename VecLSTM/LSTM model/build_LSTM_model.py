@@ -1,7 +1,7 @@
 ;==========================================
 ; Title: Build_LSTM_model
-; Author: anonymous - ICDM 2024 - conference
-; Date:   ICDM 2024
+; Author: anonymous 
+; Date:    The Web Conference 2025
 ;==========================================
 
 model = Sequential()
