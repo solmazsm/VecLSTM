@@ -1,7 +1,7 @@
 ;==========================================
 ; Title: Measure the time for vectorization
-; Author: anonymous - ICDM 2024 - conference
-; Date:   ICDM 2024
+; Author: anonymous 
+; Date:    The Web Conference 2025
 ;==========================================
 # With Vectorization
     # Measure the time for vectorization
