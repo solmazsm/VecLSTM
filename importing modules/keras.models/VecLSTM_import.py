@@ -1,7 +1,6 @@
 ;==========================================
 ; Title: VecLSTM_import
-; Author: anonymous - ICDM 2024 - conference
-; Date:   ICDM 2024
+; Author: anonymous 
 ;==========================================
 
 from tensorflow.keras.models import Sequential
