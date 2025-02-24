@@ -15,14 +15,14 @@ Additionally, we leverage the HighD dataset, a large-scale, drone-captured vehic
     
 <h2>Vectorization</h2>
     <p>The <strong>vectorization_function_VecLSTM</strong> was developed to normalize and vectorize the latitude, longitude, and altitude data into a structured 10x10 grid. This transformation optimizes the input data for neural network processing.</p>
+    
     <h2>Database Connection</h2>
     <p>A MySQL database connection was established to store and retrieve the vectorized data efficiently. This approach ensures that the trajectory data is both easily accessible and manageable, particularly for large datasets.</p>
 
 <h2>Metadata Creation</h2>
     <p>A new metadata column was created in the DataFrame by combining the existing columns (time, latitude, longitude, altitude, label, and user). This enriched dataset allows the model to consider additional contextual information for improved predictions.</p>
 
-      <h2>Training LSTM Model Without Vectorization</h2>
-    <p>An LSTM model with two LSTM layers and a Dense layer for classification was built and compiled. The model's performance was evaluated on the test set using a confusion matrix, classification report, and weighted F1-score. Training time was measured without vectorization to assess the computational efficiency of the model.</p>
+    
 
 
 # Training LSTM Model without Vectorization:
