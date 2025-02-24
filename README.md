@@ -13,11 +13,9 @@ Additionally, we leverage the HighD dataset, a large-scale, drone-captured vehic
         <li>The HighD dataset is available <a href="https://levelxdata.com/highd-dataset/" target="_blank">here</a>.</li>
     </ul>
     
-# Vectorization
-Defined a vectorization_function_VecLSTM to normalize and vectorize the latitude, longitude, and altitude data into a 10x10 grid.
-
 <h2>Vectorization</h2>
     <p>The <strong>vectorization_function_VecLSTM</strong> was developed to normalize and vectorize the latitude, longitude, and altitude data into a structured 10x10 grid. This transformation optimizes the input data for neural network processing.</p>
+    
 # Database Connection
 Established a connection to a MySQL database to store and retrieve vectorized data.
 
