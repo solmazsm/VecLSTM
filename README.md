@@ -1,5 +1,6 @@
 # VecLSTM
-This folder contains all the necessary implementations required to replicate the studies presented at The Web Conference 2025.
+This folder contains all the necessary implementations required to replicate the studies presented at *IEEE Transactions on Big Data, 2025*.
+
 # Dataset
 The GeoLife dataset, encompassing GPS trajectories from 182 users over three years, offers a comprehensive view of outdoor activities. We utilized the Geolife GPS trajectory dataset, containing 1,467,652 samples with 7 distinct labels. The neural network architecture, designed for this dataset, incorporated LSTM layers followed by a Dense layer, boasting a total of 71,357 trainable parameters.
 
