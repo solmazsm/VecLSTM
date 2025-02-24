@@ -18,9 +18,6 @@ Additionally, we leverage the HighD dataset, a large-scale, drone-captured vehic
     <h2>Database Connection</h2>
     <p>A MySQL database connection was established to store and retrieve the vectorized data efficiently. This approach ensures that the trajectory data is both easily accessible and manageable, particularly for large datasets.</p>
 
-# Database Connection
-Established a connection to a MySQL database to store and retrieve vectorized data.
-
 # Metadata Creation
 Created a metadata column in the DataFrame by combining existing columns (time, latitude, longitude, altitude, label, and user).
 
