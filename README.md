@@ -19,33 +19,27 @@ Additionally, we leverage the HighD dataset, a large-scale, drone-captured vehic
     <h2>Database Connection</h2>
     <p>A MySQL database connection was established to store and retrieve the vectorized data efficiently. This approach ensures that the trajectory data is both easily accessible and manageable, particularly for large datasets.</p>
 
-<h2>Metadata Creation</h2>
-    <p>A new metadata column was created in the DataFrame by combining the existing columns (time, latitude, longitude, altitude, label, and user). This enriched dataset allows the model to consider additional contextual information for improved predictions.</p>
-
-    
-
-
-# Training LSTM Model without Vectorization:
+## Training LSTM Model without Vectorization:
 
 Built and compiled an LSTM model with two LSTM layers and a Dense layer for classification.
 Measured and recorded the training time without vectorization.
 Trained the model on the resampled training data.
 Evaluated the model's performance on the test set using confusion matrix, classification report, and weighted F1-score.
 
-# Vectorization Process
+## Vectorization Process
 Measured the time taken for vectorization.
 Vectorized each trajectory and stored the vectorized data into the MySQL database.
 
-# CNN Model Integration
+## CNN Model Integration
 CNN Model: Convolutional Neural Network (CNN) model (cnn_model) for extracting spatial features from trajectory data.
 Integration: Combined the outputs of both LSTM and CNN models using the concatenate layer.
 Training: Trained the combined model (model) on the integrated data from both LSTM and CNN.
 
-# Evaluation and Comparison
+## Evaluation and Comparison
 Performance Evaluation: Evaluated the hybrid model on the test set, calculated RMSE, MAE, and MSE.
 compare training times between LSTM-only and combined LSTM + CNN models.
 
-# Evaluation Implementation
+## Evaluation Implementation
 
  Performed several steps to preprocess trajectory data, train an LSTM model, and compare the performance with and without vectorization.
  Performed several steps to preprocess trajectory data, train an Hybrid model, and compare the performance with and without vectorization.
@@ -57,17 +51,4 @@ compare training times between LSTM-only and combined LSTM + CNN models.
 For any questions, concerns, or comments for improvements, etc, please create an issue on the issues page for this project, or email the authors directly.
 
     
-    <h2>Training LSTM Model Without Vectorization</h2>
-    <p>An LSTM model with two LSTM layers and a Dense layer for classification was built and compiled. The model's performance was evaluated on the test set using a confusion matrix, classification report, and weighted F1-score. Training time was measured without vectorization to assess the computational efficiency of the model.</p>
 
-    <h2>Vectorization Process</h2>
-    <p>We measured the time required for vectorization, during which each trajectory was processed and stored into the MySQL database for efficient retrieval during training.</p>
-
-    <h2>CNN Model Integration</h2>
-    <p>A Convolutional Neural Network (CNN) model was integrated to extract spatial features from the trajectory data. The outputs from both the LSTM and CNN models were concatenated to form a hybrid model. This model was then trained on the integrated data, offering a powerful combination of spatial feature extraction and sequential modeling.</p>
-
-    <h2>Evaluation and Comparison</h2>
-    <p>The hybrid model was evaluated on the test set, with performance metrics including RMSE, MAE, and MSE calculated for comparison. Training times were compared between the LSTM-only model and the combined LSTM + CNN model to demonstrate the efficiency gains from hybrid integration.</p>
-
-    <h2>Evaluation Implementation</h2>
-    <p>Instructions on how to run the evaluation and further implementation details can be found <a href="https://anonymous.4open.science/r/VecLSTM-C91B" target="_blank">here</a>.</p>
