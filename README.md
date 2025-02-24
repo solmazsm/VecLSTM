@@ -3,9 +3,15 @@ This folder contains all the necessary implementations required to replicate the
 # Dataset
 The GeoLife dataset, encompassing GPS trajectories from 182 users over three years, offers a comprehensive view of outdoor activities. We utilized the Geolife GPS trajectory dataset, containing 1,467,652 samples with 7 distinct labels. The neural network architecture, designed for this dataset, incorporated LSTM layers followed by a Dense layer, boasting a total of 71,357 trainable parameters.
 
-# Download Dataset
-Instructions on how to download the dataset can be found <a href="https://www.microsoft.com/en-us/download/details.aspx?id=52367">here</a>.
+Additionally, we leverage the HighD dataset, a large-scale, drone-captured vehicle trajectory dataset from German highways. It includes 110,000 vehicle trajectories over 16,500 tracks, recorded at 25 Hz with high accuracy. Each trajectory contains data on position, velocity, acceleration, and lane changes, making it ideal for modeling multi-agent interactions and trajectory predictions. This dataset provides valuable insights into complex spatial-temporal dependencies, which are critical for advancing our models.
 
+
+<h3>Download Datasets</h3>
+    <ul>
+        <li>The GeoLife dataset can be downloaded <a href="https://www.microsoft.com/en-us/download/details.aspx?id=52367" target="_blank">here</a>.</li>
+        <li>The HighD dataset is available <a href="https://levelxdata.com/highd-dataset/" target="_blank">here</a>.</li>
+    </ul>
+    
 # Vectorization
 Defined a vectorization_function_VecLSTM to normalize and vectorize the latitude, longitude, and altitude data into a 10x10 grid.
 
