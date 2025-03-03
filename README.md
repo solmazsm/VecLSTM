@@ -70,14 +70,99 @@ To install and run the VecLSTM model, follow these steps:
     ```bash
     python train_model.py
     ```
+# Project Structure
 
+The following is the structure of this project:
+
+```plaintext
+VecLSTM
+├── Compile_the_model_without_vectorization
+│   ├── compile_the_model_without_vectorization.py
+│   └── train_the_model_without_vectorization.py
+├── Data Preparation
+│   ├── time series data
+│   │   └── creating_sequences
+│   └── unique_labels.py
+├── Measure the elapsed time for vectorization
+│   └── time_without_vectorization.py
+│   └── VecLSTM_time_vectorization.py
+├── Measure the time for training without vectorization
+│   └── Measure_the_time_for_training_without_vectorization.py
+├── VecLSTM_time_vectorization.py
+├── Measure the time for vector database query
+│   └── Measure_the_elapsed_time_for_the_vector_database_query.py
+│   └── VecLSTM_vector_database_query.py
+│   └── results.py
+├── Train the model without vectorization
+│   ├── VecLSTM_train_without_vectorization.py
+├── VecLSTM
+│   ├── CNN_Model_Integration
+│   │   └── LSTM_CNN_models
+│   │   └── hybrid_model_VecLSTM.py
+│   ├── CNN_model
+│   │   └── cnn_model_VecLSTM.py
+├── Create a table to store trajectory prediction
+│   └── VecLSTM_trajectory_prediction.py
+├── Insert trajectory prediction
+│   └── insert_trajectory_predictions.py
+├── LSTM model
+│   ├── build_LSTM_model.py
+│   ├── features_for_LSTM.py
+│   └── train_model.py
+├── Measure query execution time
+│   └── Measure_query_execution_time.py
+├── VecLSTM_vector
+│   ├── VecLSTM_vector.py
+│   └── VecLSTM.py
+│   └── VecLSTM_vectorFunction_to_load_trajectory.py
+├── confusion matrix, classification report, and F1-score
+│   └── report.py
+├── hybrid_model_VecLSTM
+│   ├── Compare_times
+│   ├── Compare_times_Without_vectorization_Vectorization_Time
+│   ├── RMSE_MAE_MSE
+│   │   ├── mae_cnn_lstm.py
+│   │   ├── mse_cnn_lstm.py
+│   │   └── rmse_cnn_lstm.py
+│   ├── model_without_vectorization
+│   │   └── hybrid_model_VecLSTM.py
+│   ├── predictions
+│   │   └── predictions_VecLSTM.py
+│   ├── retrieve_data
+│   │   └── retrieve_data.py
+│   ├── metadata
+│   │   └── metadata.py
+│   ├── retrieved_vectorized_data
+│   │   └── retrieved_vectorized_data.py
+│   └── vectorized
+│       └── vectorized_data.py
+├── datasets
+│   └── datasets.md
+├── for_VAEpaper_release
+│   └── SD
+│       └── Standard_Deviation_of_RMSE.csv
+├── importing modules
+│   └── keras.models
+│   └── VecLSTM_import.py
+│   └── package.py
+├── vectorization
+│   ├── vectorization_function
+│   └── Measure_time_vectorization
+│       └── measure_time_vectorization.py
+│       └── vectorization_function_VecLSTM.py
+├── LICENSE
+└── README.md
+
+
+```
 
 
 ## Acknowledgments
 
 - **GeoLife Dataset**: [Microsoft Research](https://www.microsoft.com/en-us/research/project/geolife/)
 - **HighD Dataset**: [HighD Dataset](https://www.highd-dataset.com/)
-- **VecLSTM**: Developed as part of our research on trajectory prediction and activity recognition.
+- **VecLSTM**: Developed as part of our research on trajectory prediction and activity recognition. https://github.com/solmazsm/VecLSTM
+  
 
 For any questions, concerns, or comments for improvements, etc, please create an issue on the issues page for this project, or email the authors directly.
 
