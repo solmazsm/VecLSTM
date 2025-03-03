@@ -1,11 +1,13 @@
 # VecLSTM
 <p>This folder contains all the necessary implementations required to replicate the studies presented at <a href="https://www.computer.org/digital-library/journals/bd/cfp-ieee-transactions-on-big-data" target="_blank"><em>IEEE Transactions on Big Data, 2025</em></a>. 
 
-# Dataset
-The GeoLife dataset, encompassing GPS trajectories from 182 users over three years, offers a comprehensive view of outdoor activities. We utilized the Geolife GPS trajectory dataset, containing 1,467,652 samples with 7 distinct labels. The neural network architecture, designed for this dataset, incorporated LSTM layers followed by a Dense layer, boasting a total of 71,357 trainable parameters.
+# Datasets
 
-Additionally, we leverage the HighD dataset, a large-scale, drone-captured vehicle trajectory dataset from German highways. It includes 110,000 vehicle trajectories over 16,500 tracks, recorded at 25 Hz with high accuracy. Each trajectory contains data on position, velocity, acceleration, and lane changes, making it ideal for modeling multi-agent interactions and trajectory predictions. This dataset provides valuable insights into complex spatial-temporal dependencies, which are critical for advancing our models.
+# GeoLife Dataset
+The GeoLife dataset contains GPS trajectories collected from 182 users over a span of three years. It provides a comprehensive view of outdoor activities, consisting of 1,467,652 samples with 7 distinct labels. The dataset is ideal for trajectory modeling, and the neural network architecture designed for this dataset incorporates LSTM layers followed by a Dense layer, with a total of 71,357 trainable parameters.
 
+# HighD Dataset
+The HighD dataset is a large-scale, drone-captured vehicle trajectory dataset gathered from German highways. It includes 110,000 vehicle trajectories across 16,500 tracks, recorded at 25 Hz with high accuracy. Each trajectory contains data on position, velocity, acceleration, and lane changes, making it highly suitable for modeling multi-agent interactions and trajectory predictions. This dataset is invaluable for understanding complex spatial-temporal dependencies, essential for advancing models in dynamic environments.
 
 <h3>Download Datasets</h3>
     <ul>
