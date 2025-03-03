@@ -12,7 +12,7 @@ The HighD dataset is a large-scale, drone-captured vehicle trajectory dataset ga
     <ul>
         <li>The GeoLife dataset can be downloaded <a href="https://www.microsoft.com/en-us/download/details.aspx?id=52367" target="_blank">here</a>.</li>
         <li>The HighD dataset is available <a href="https://levelxdata.com/highd-dataset/" target="_blank">here</a>.</li>
-
-        <img src="https://levelxdata.com/wp-content/uploads/2023/09/droneHighD-450x300.png" alt="Drone HighD" />
-
     </ul>
+
+    
+![Drone HighD](https://levelxdata.com/wp-content/uploads/2023/09/droneHighD-450x300.png)
