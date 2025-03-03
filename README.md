@@ -6,7 +6,7 @@ This research work has been submitted to IEEE Transactions on Big Data: <a href=
 
 ## Overview
 
-Trajectory prediction and activity recognition are critical for understanding dynamic systems such as transportation and urban mobility. VecLSTM addresses scalability and computational challenges in processing high-dimensional trajectory data by incorporating:
+Trajectory prediction and activity recognition are critical for understanding dynamic systems such as transportation and urban mobility. VecLSTM addresses scalability and computational challenges in processing high-dimensional trajectory data:
 
 - **Vectorization Layer**: Preprocessing raw GPS data into efficient vector representations.
 - **CNN-based Feature Extractor**: Capturing spatial dependencies from the trajectory data.
