@@ -34,7 +34,7 @@ The HighD dataset is a large-scale, drone-captured vehicle trajectory dataset fr
 VecLSTM follows these key steps:
 
 1. **Data Preprocessing**: Raw GPS data is cleaned, normalized, and prepared for model training.
-2. **Vectorization**: A custom vectorization function transforms trajectory data into a 10x10 grid, storing spatial and temporal features.
+2. **Vectorization**: A vectorization function transforms trajectory data into a 10x10 grid, storing spatial and temporal features.
 3. **CNN and LSTM Model**: A CNN-based model extracts spatial features, and an LSTM captures temporal dependencies from the vectorized data.
 4. **Model Training**: The model is trained on the preprocessed and vectorized trajectory data to predict future trajectory points or activity labels.
 
