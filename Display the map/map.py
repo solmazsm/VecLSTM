@@ -1,4 +1,7 @@
-
+;==========================================
+; Title: Display the map
+; Author: anonymous 
+;==========================================
 
 m = folium.Map(location=[latitude_center, longitude_center], zoom_start=12)
 
