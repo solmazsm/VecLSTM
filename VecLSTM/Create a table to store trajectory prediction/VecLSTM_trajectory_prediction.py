@@ -1,7 +1,6 @@
 ;==========================================
 ; Title: Create a table to store VecLSTM_trajectory_prediction
-; Author: anonymous 
-; Date:   The Web Conference 2025
+; Author: Solmaz Seyed Monir
 ;==========================================
 
 create_table_query = 
