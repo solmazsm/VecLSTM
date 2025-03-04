@@ -1,7 +1,6 @@
 ;==========================================
 ; Title: Measure query execution time
-; Author: anonymous 
-; Date:    The Web Conference 2025
+; Author: Solmaz Seyed Monir
 ;==========================================
 
 query_execution_time = end_time - start_time
