@@ -1,6 +1,6 @@
 ;==========================================
 ; Title: Create metadata
-; Author: anonymous 
+; Author: Solmaz Seyed Monir
 ;==========================================
 
 metadata_list = [f"{trajectory_id}_{point}" for trajectory_id, trajectory in enumerate(trajectories) for point in range(len(trajectory))]
