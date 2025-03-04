@@ -1,7 +1,6 @@
 ;==========================================
 ; Title: Train the model with class weights
-; Author: anonymous 
-; Date:    The Web Conference 2025
+; Author: Solmaz Seyed Monir
 ;==========================================
 
 history = model.fit(
