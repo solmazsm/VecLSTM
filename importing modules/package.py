@@ -1,7 +1,6 @@
 ;==========================================
 ; Title: package
-; Author: anonymous 
-; Date:    The Web Conference 2025
+; Author: Solmaz Seyed Monir
 ;==========================================
 
 import matplotlib
