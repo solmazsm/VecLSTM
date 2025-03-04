@@ -1,6 +1,6 @@
 ;==========================================
 ; Title: VecLSTM_import
-; Author: anonymous 
+; Author: Solmaz Seyed Monir 
 ;==========================================
 
 from tensorflow.keras.models import Sequential
