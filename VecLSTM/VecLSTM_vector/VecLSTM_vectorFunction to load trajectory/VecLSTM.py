@@ -1,7 +1,6 @@
 ;==========================================
 ; Title: Function to load trajector_VecLSTM
-; Author: 
-; Date:   ICDM 2024
+; Author: Solmaz Seyed Monir
 ;==========================================
 
 def load_trajectory_from_df(trajectory_df):
