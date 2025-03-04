@@ -1,7 +1,6 @@
 ;==========================================
 ; Title: vectorization process
-; Author: anonymous 
-; Date:   The Web Conference 2025
+; Author: Solmaz Seyed Monir 
 ;========================================== 
 
 def vectorization_function_VecLSTM(lat_lon_alt):
