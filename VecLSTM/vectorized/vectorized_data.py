@@ -1,6 +1,6 @@
 ;==========================================
 ; Title: Create a vector representation
-; Author: anonymous 
+; Author: Solmaz Seyed Monir
 ;========================================== 
 
 # This function takes the latitude (lat), longitude (lon), and time (time) columns 
