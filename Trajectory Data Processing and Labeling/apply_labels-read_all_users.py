@@ -1,3 +1,7 @@
+;==========================================
+; Title: Trajectory Data Processing and Labeling
+; Author: Solmaz Seyed Monir
+;==========================================
 def apply_labels(points, labels):
     indices = labels['start_time'].searchsorted(points['time'], side='right') - 1
     no_label = (indices < 0) | (points['time'].values >= labels['end_time'].iloc[indices].values)
