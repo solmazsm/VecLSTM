@@ -1,7 +1,6 @@
 ;==========================================
 ; Title: vectorization
-; Author: anonymous 
-; Date:    The Web Conference 2025
+; Author: Solmaz Seyed Monir
 ;==========================================
 
 vectorized_data_array = VecLSTM_vectorization_function(trajectories)
