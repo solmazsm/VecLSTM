@@ -1,7 +1,6 @@
 ;==========================================
 ; Title: Measure the time for vectorization
-; Author: anonymous 
-; Date:    The Web Conference 2025
+; Author: Solmaz Seyed Monir
 ;==========================================
 # With Vectorization
     # Measure the time for vectorization
