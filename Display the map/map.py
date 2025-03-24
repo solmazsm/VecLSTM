@@ -1,6 +1,6 @@
 ;==========================================
 ; Title: Display the map
-; Author: anonymous 
+; Author: Solmaz Seyed Monir
 ;==========================================
 
 m = folium.Map(location=[latitude_center, longitude_center], zoom_start=12)
