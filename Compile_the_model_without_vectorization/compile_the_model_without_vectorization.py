@@ -1,6 +1,6 @@
 ;==========================================
 ; Title: Compile_the_model_without_vectorization
-; Author: anonymous 
+; Author: Solmaz Seyed Monir 
 ;==========================================
 
     model_without_vectorization = Sequential()
