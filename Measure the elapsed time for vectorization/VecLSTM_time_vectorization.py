@@ -1,6 +1,6 @@
 ;==========================================
 ; Title: Measure the elapsed time for vectorization
-; Author: anonymous 
+; Author: Solmaz Seyed Monir 
 ;==========================================
 
 end_time_vectorization = time.time()
