@@ -5,6 +5,19 @@
 > **Affiliation:** Database Research Group, University of Washington  
 
 ---
+<p align="center">
+  <a href="https://github.com/solmazsm/VecLSTM">
+    <img src="https://img.icons8.com/color/48/000000/internet--v1.png" width="32" alt="Project Page">
+  </a>
+  &nbsp;
+  <a href="https://github.com/solmazsm/VecLSTM">
+    <img src="https://img.icons8.com/ios-glyphs/48/000000/github.png" width="32" alt="GitHub">
+  </a>
+  &nbsp;
+  <a href="https://arxiv.org/abs/2409.19258">
+    <img src="https://arxiv.org/abs/2409.19258" width="40" alt="arXiv">
+  </a>
+</p>
 
 ##  Overview
 
