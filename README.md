@@ -6,8 +6,6 @@
 
 ---
 
-https://www.cs.washington.edu/people/faculty/zhao-dongfang/
-
 <p align="leftr">
   <a href="https://github.com/solmazsm/VecLSTM" target="_blank">
     <img height="32" src="https://img.icons8.com/ios-filled/50/4a90e2/internet.png" />
