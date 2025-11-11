@@ -4,7 +4,7 @@
 **Authors:** Solmaz Seyed Monir, [Dr. Dongfang Zhao](https://www.cs.washington.edu/people/faculty/zhao-dongfang/)  
 **Affiliation:** Database Research Group (HPDIC Lab), University of Washington
 
----
+
 
 <p align="leftr">
   <a href="https://github.com/solmazsm/VecLSTM" target="_blank">
@@ -24,7 +24,7 @@
 </p>
 
 
-
+---
 
 
 ##  Overview
