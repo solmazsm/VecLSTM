@@ -1,13 +1,15 @@
 # VecLSTM: A Scalable Vectorized Framework for Trajectory Prediction and Activity Recognition
 
-> **Status:**  *Submitted to IEEE ICDE 2026*  
-> **Authors:** Solmaz Seyed Monir, Dr. Dongfang Zhao  
-> **Affiliation:** Database Research Group, University of Washington @HPDIC Lab  
+**Status:** *Submitted to IEEE ICDE 2026*  
+**Authors:** Solmaz Seyed Monir, [Dr. Dongfang Zhao](https://www.cs.washington.edu/people/faculty/zhao-dongfang/)  
+**Affiliation:** Database Research Group (HPDIC Lab), University of Washington
 
 ---
 
+https://www.cs.washington.edu/people/faculty/zhao-dongfang/
+
 <p align="leftr">
-  <a href="https://YOUR_PROJECT_WEBSITE_URL" target="_blank">
+  <a href="https://github.com/solmazsm/VecLSTM" target="_blank">
     <img height="32" src="https://img.icons8.com/ios-filled/50/4a90e2/internet.png" />
   </a>
   &nbsp;&nbsp;
