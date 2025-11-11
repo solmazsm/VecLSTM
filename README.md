@@ -2,7 +2,7 @@
 
 > **Status:**  *Submitted to IEEE ICDE 2026*  
 > **Authors:** Solmaz Seyed Monir, Dongfang Zhao  
-> **Affiliation:** Database Research Group, University of Washington  
+> **Affiliation:** Database Research Group, University of Washington @HPDIC Lab  
 
 ---
 
@@ -90,6 +90,27 @@ To install and run the VecLSTM model, follow these steps:
     ```bash
     python train_model.py
     ```
+
+## Installation & Setup
+
+**Requirements**: [Docker](https://docs.docker.com/get-docker/)
+
+1. Clone this repository and download the datasets as needed.
+2. Build and start the full stack:
+    ```bash
+    docker-compose up --build
+    ```
+3. The API will be available at `localhost:8000`, MySQL at `localhost:3306`.
+
+---
+
+## Running the Project
+
+- Access endpoints via the `veclstm_api` container (see `/main.py` for available routes).
+- Model outputs (trajectory embeddings) are stored in MySQL via the provided schema.
+
+---
+    
 # Project Structure
 
 The following is the structure of this project:
