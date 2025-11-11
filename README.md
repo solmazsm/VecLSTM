@@ -1,11 +1,9 @@
-# VecLSTM: A Scalable Vectorized Framework for Trajectory Prediction and Activity Recognition
+# VecLSTM: A Scalable Data Management System for Spatio-Temporal Modeling with Dynamic Vectorization
 
 **Status:** *Submitted to IEEE ICDE 2026*  
 **Authors:** Solmaz Seyed Monir, [Dr. Dongfang Zhao](https://www.cs.washington.edu/people/faculty/zhao-dongfang/)  
 **Affiliation:** Database Research Group (HPDIC Lab), University of Washington
-
-
-
+---
 <p align="leftr">
   <a href="https://github.com/solmazsm/VecLSTM" target="_blank">
     <img height="32" src="https://img.icons8.com/ios-filled/50/4a90e2/internet.png" />
