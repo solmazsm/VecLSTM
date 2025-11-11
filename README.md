@@ -7,18 +7,24 @@
 ---
 
 <p align="center">
-  <a href="https://github.com/solmazsm/VecLSTM/edit/master/README.md" target="_blank">
+  <a href="https://YOUR_PROJECT_WEBSITE_URL" target="_blank">
     <img height="32" src="https://img.icons8.com/ios-filled/50/4a90e2/internet.png" />
   </a>
   &nbsp;&nbsp;
   <a href="https://github.com/solmazsm/VecLSTM" target="_blank">
-    <img height="32" src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/github.svg" />
+    <img height="32" src="https://raw.githubusercontent.com/simple-icons/simple-icons/master/icons/github.svg" />
   </a>
   &nbsp;&nbsp;
-  <a href="https://arxiv.org/abs/2409.19258" title="arXiv not released">
-    <img height="32" src="https://upload.wikimedia.org/wikipedia/commons/9/95/ArXiv_logo_2022.svg" />
+  <a href="https://arxiv.org/abs/2409.19258" target="_blank">
+  <svg width="80" height="34" viewBox="0 0 80 34" xmlns="http://www.w3.org/2000/svg">
+      <text x="0" y="24" font-family="Georgia, serif" font-size="24" fill="#6E6259">arXiv</text>
+      <line x1="0" y1="2" x2="80" y2="32" stroke="#B80000" stroke-width="4" />
+    </svg>
   </a>
 </p>
+
+
+
 
 
 ##  Overview
