@@ -1,0 +1,33 @@
+version: '3.9'
+
+services:
+  mysql:
+    image: mysql:8.0.36
+    container_name: mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpass
+      MYSQL_DATABASE: veclstm_db
+    ports:
+      - "3306:3306"
+    command: --default-authentication-plugin=mysql_native_password
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+  veclstm_api:
+    build: .
+    container_name: veclstm_api
+    restart: always
+    depends_on:
+      - mysql
+    ports:
+      - "8000:8000"
+    environment:
+      - MYSQL_HOST=mysql
+      - MYSQL_USER=root
+      - MYSQL_PASSWORD=rootpass
+      - MYSQL_DB=veclstm_db
+    command: uvicorn main:app --host 0.0.0.0 --port 8000
+
+volumes:
+  mysql_data:
