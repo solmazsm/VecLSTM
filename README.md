@@ -1,29 +1,32 @@
-# VecLSTM: A Scalable Data Management System for Spatio-Temporal Modeling with Dynamic Vectorization
+<p align="center">
+  <img src="https://img.shields.io/badge/Under%20Review%20at%20IEEE%20ICDE%202026-0033A0?style=for-the-badge&labelColor=0033A0&color=0033A0&logoColor=white" />
+</p>
 
-**Status:** *Submitted to IEEE ICDE 2026*  
-**Authors:** Solmaz Seyed Monir, [Dr. Dongfang Zhao](https://www.cs.washington.edu/people/faculty/zhao-dongfang/)  
-**Affiliation:** Database Research Group (HPDIC Lab), University of Washington
----
-<p align="leftr">
-  <a href="https://github.com/solmazsm/VecLSTM" target="_blank">
-    <img height="32" src="https://img.icons8.com/ios-filled/50/4a90e2/internet.png" />
+
+
+<h1 align="center">VecLSTM: A Scalable Data Management System for Spatio-Temporal Modeling with Dynamic Vectorization</h1>
+
+<p align="center">
+  <a href="https://students.washington.edu/solmazsm/"><strong>Solmaz Seyed Monir</strong></a><sup>1</sup>, 
+  <a href="https://www.cs.washington.edu/people/faculty/zhao-dongfang/"><strong>Dr. Dongfang Zhao</strong></a><sup>1</sup>
+</p>
+
+
+<p align="center">
+  <sup>1</sup>Database Research Group (HPDIC Lab) • University of Washington
+</p>
+
+<p align="center">
+  <a href="https://github.com/solmazsm/VecLSTM">
+    <img src="https://img.shields.io/badge/Code-000000?style=for-the-badge&logo=github&logoColor=white" />
   </a>
-  &nbsp;&nbsp;
-  <a href="https://github.com/solmazsm/VecLSTM" target="_blank">
-    <img height="32" src="https://raw.githubusercontent.com/simple-icons/simple-icons/master/icons/github.svg" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://arxiv.org/abs/2409.19258" target="_blank">
-  <svg width="80" height="34" viewBox="0 0 80 34" xmlns="http://www.w3.org/2000/svg">
-      <text x="0" y="24" font-family="Georgia, serif" font-size="24" fill="#6E6259">arXiv</text>
-      <line x1="0" y1="2" x2="80" y2="32" stroke="#B80000" stroke-width="4" />
-    </svg>
+  <a href="https://arxiv.org">
+    <img src="https://img.shields.io/badge/arXiv-CC0000?style=for-the-badge&logo=arxiv&logoColor=white" />
   </a>
 </p>
 
 
 ---
-
 
 ##  Overview
 
@@ -37,7 +40,7 @@ The system converts irregular spatiotemporal trajectories into fixed-shape **fea
 - **Task-agnostic vectorization:**  
   Transforms each trajectory into a fixed feature–time tensor with complexity $\mathcal{O}(N){+}\mathcal{O}(KF)$ and no geographic gridding.
 
-- **Hybrid CNN–LSTM encoder:**  
+- **Hybrid encoder:**  
   Captures spatial and temporal correlations while fusing metadata via concatenation.
 
 - **Persistent vector store:**  
@@ -50,7 +53,7 @@ The system converts irregular spatiotemporal trajectories into fixed-shape **fea
 
 ##  System Design
 
-The framework decouples feature extraction from sequence modeling:
+The architecture modularizes spatial feature extraction and temporal sequence modeling.
 
 Trajectory prediction and activity recognition are critical for understanding dynamic systems such as transportation and urban mobility. VecLSTM addresses scalability and computational challenges in processing high-dimensional trajectory data:
 
