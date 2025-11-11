@@ -20,7 +20,7 @@
   <a href="https://github.com/solmazsm/VecLSTM">
     <img src="https://img.shields.io/badge/Code-000000?style=for-the-badge&logo=github&logoColor=white" />
   </a>
-  <a href="https://arxiv.org">
+  <a href="https://arxiv.org/abs/2409.19258">
     <img src="https://img.shields.io/badge/arXiv-CC0000?style=for-the-badge&logo=arxiv&logoColor=white" />
   </a>
 </p>
