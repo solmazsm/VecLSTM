@@ -98,8 +98,9 @@ Because <b>K</b> and <b>F</b> do not scale with data size, the overhead remains 
 ## Datasets
 
 ### GeoLife Dataset
-The GeoLife dataset consists of GPS trajectories from 182 users collected over five years (Apr.\ 2007-Aug.\ 2012), covering more than 17{,}000 trips, 1.2\,M\,km of travel, and approximately 48{,}000 total hours. For our experiments we use a curated GeoLife subset with 1{,}467{,}652 rows
-and six columns. The label is used only as supervision and is \emph{not} included in the metadata/input features. A key contribution of this work is the integration of enriched metadata, which includes contextual attributes. This dataset is ideal for training models that predict human activity from trajectory data.
+The GeoLife dataset consists of GPS trajectories from 182 users collected over five years (Apr 2007–Aug 2012), covering 17,000+ trips, 1.2 M km of travel, and 48,000 hours.  
+In our experiments, we use a curated subset with 1,467,652 rows and six columns.   
+We further integrate enriched metadata with contextual attributes, making this dataset ideal for human-activity prediction from trajectory data.
 
 - **Dataset details**: [GeoLife Dataset](https://www.microsoft.com/en-us/research/project/geolife/)
 - **Usage**: The GeoLife dataset is used to evaluate the VecLSTM model on large-scale real-world trajectory data.
@@ -124,7 +125,7 @@ The HighD dataset is a large-scale, drone-captured vehicle trajectory dataset fr
 ---
 
 
-## Installation
+## Installation & Setup
 
 To install and run the VecLSTM model, follow these steps:
 
@@ -143,28 +144,23 @@ To install and run the VecLSTM model, follow these steps:
     ```bash
     python train_model.py
     ```
+## Running VecLSTM
 
-## Installation & Setup
- ### Running with Docker
 The repo includes a Docker Compose setup for fully reproducible experiments.
+
 **Requirements**: [Docker](https://docs.docker.com/get-docker/)
 
-1. Build and start the services:
+1. Build and start:
     ```bash
     docker-compose up --build
     ```
 2. The API will be available at `localhost:8000`, MySQL at `localhost:3306`.
 
-   Use the `/store_embedding/` endpoint to insert new trajectory embeddings and metadata.
-
----
-## Running the Project
-
-- Access endpoints via the `veclstm_api` container (see `/main.py` for available routes).
-- Model outputs (trajectory embeddings) are stored in MySQL via the provided schema.
+  - Access endpoints via the `veclstm_api` container (see `/main.py` for available routes).
+ - Model outputs (trajectory embeddings) are stored in MySQL.
 ---
     
-# Project Structure
+# VecLSTM Structure
 
 The following is the structure of this project:
 
