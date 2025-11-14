@@ -1,9 +1,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Under%20Review%20at%20IEEE%20ICDE%202026-0033A0?style=for-the-badge&labelColor=0033A0&color=0033A0&logoColor=white" />
+  
 </p>
-
-
-
 <h1 align="center">VecLSTM: A Scalable Data Management System for Spatio-Temporal Modeling with Dynamic Vectorization</h1>
 
 <p align="center">
@@ -23,17 +21,18 @@
   <a href="https://arxiv.org/abs/2409.19258">
     <img src="https://img.shields.io/badge/arXiv-CC0000?style=for-the-badge&logo=arxiv&logoColor=white" />
   </a>
-</p>
-
+  
+ 
+  </p>
 
 ---
-
-##  Overview
+##  Overview 
+![VecLSTM Views](https://hits.sh/github.com/solmazsm/VecLSTM.svg?label=VecLSTM%20&color=0e75b6)
 
 **VecLSTM** introduces a scalable trajectory modeling framework that bridges *deep sequence learning* and *vector databases*.  
 The system converts irregular spatiotemporal trajectories into fixed-shape **feature–time tensors**, enabling efficient **CNN–LSTM** modeling and **metadata-aware caching** for reuse across training sessions.
 
----
+--- 
 
 ##  Key Contributions
 
