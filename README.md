@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://img.shields.io/badge/Under%20Review%20at%20IEEE%20ICDE%202026-0033A0?style=for-the-badge&labelColor=0033A0&color=0033A0&logoColor=white" />
+  <img src="https://img.shields.io/badge/Anonymous%20review artifact%202026-0033A0?style=for-the-badge&labelColor=0033A0&color=0033A0&logoColor=white" />
   
 </p>
 <h1 align="center">VecLSTM: A Scalable Data Management System for Spatio-Temporal Modeling with Dynamic Vectorization</h1>
@@ -11,7 +11,7 @@
 
 
 <p align="center">
-  <sup>1</sup>Database Research Group (HPDIC Lab) • University of Washington
+  <sup>1</sup>University of Washington (HPDIC Lab)
 </p>
 
 <p align="center">
