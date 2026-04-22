@@ -1,18 +1,6 @@
-<p align="center">
-  <img src="https://img.shields.io/badge/Anonymous%20review artifact%202026-0033A0?style=for-the-badge&labelColor=0033A0&color=0033A0&logoColor=white" />
-  
-</p>
+
 <h1 align="center">VecLSTM: A Scalable Data Management System for Spatio-Temporal Modeling with Dynamic Vectorization</h1>
 
-<p align="center">
-  <a href="https://students.washington.edu/solmazsm/"><strong>Solmaz Seyed Monir</strong></a><sup>1</sup>, 
-  <a href="https://www.cs.washington.edu/people/faculty/zhao-dongfang/"><strong>Dr. Dongfang Zhao</strong></a><sup>1</sup>
-</p>
-
-
-<p align="center">
-  <sup>1</sup>University of Washington (HPDIC Lab)
-</p>
 
 <p align="center">
   <a href="https://github.com/solmazsm/VecLSTM">
